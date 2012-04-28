@@ -2,8 +2,8 @@
 //
 //   por
 //
-//     Dra. Laura Cornaglia <cornagli@fceia.unr.edu.ar>
-//     Santiago Pestarini   <santip@fceia.unr.edu.ar>
+//     Santiago Pestarini <santip@fceia.unr.edu.ar>
+//     Laura Cornaglia    <cornagli@fceia.unr.edu.ar>
 //
 //   se encuentra bajo una
 //
