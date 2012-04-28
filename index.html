@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>ccomp by quijot</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>ccomp</h1>
+        <h2>Funciones de cálculo de compensación.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/quijot/ccomp/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/quijot/ccomp/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/quijot/ccomp" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>ccomp</h1>
+
+<p>Funciones de cálculo de compensación para Scilab.</p>
+
+<h2>Descripción</h2>
+
+<p><strong>ccomp</strong> es un conjunto de scripts para Scilab que implementan el principio de mínimos cuadrados mediante los métodos de medidas indirectas ponderadas y de observaciones condicionadas ponderadas, el cálculo de matrices varianza-covarianza, elipses de error y algunas otras funcionalidades útiles para el cálculo de compensación de procesos de medición.</p>
+
+<h2>Instalación</h2>
+
+<p><strong>ccomp</strong> no se <em>instala</em>. Para usarlo se debe tener instalado <a href="http://www.scilab.org/">Scilab</a>. Luego simplemente descargar <strong>ccomp</strong> y descomprimir su contenido donde guste.</p>
+
+<h2>Uso</h2>
+
+<p>Para poder utilizar <strong>ccomp</strong> se debe <em>incorporar</em> a Scilab desde el menú Archivo -&gt; Ejecutar... (File -&gt; Execute...) o desde la línea de comandos con</p>
+
+<pre><code>exec &lt;directorio-ccomp&gt;/ccomp.sce;
+</code></pre>
+
+<p>donde &lt;directorio-ccomp&gt; es el directorio en que se encuentra <strong>ccomp</strong>.</p>
+
+<p>Luego se pueden ejecutar sus funciones normalmente como cualquier otra función en Scilab, por ejemplo:</p>
+
+<pre><code>[S, sigma, sigmao, MVC, alfa, sY, sX] = insertar_punto_en_red2D()
+</code></pre>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
