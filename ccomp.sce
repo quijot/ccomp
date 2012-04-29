@@ -1,4 +1,4 @@
-// ccomp: https://github.com/quijot/ccomp -------------------------------------
+// ccomp: http://quijot.github.com/ccomp/ -------------------------------------
 //
 //   por
 //
