@@ -12,6 +12,11 @@
 //
 //   Usted es libre de compartir, copiar, distribuir, ejecutar y comunicar
 //   públicamente la obra, hacer obras derivadas, hacer un uso comercial.
+//
+// Cálculos basados en la publicación de Aldo Mangiaterra: Cálculo de
+//   compensaciones - Edición 2006, Revisión 2010.
+//   UNR, Facultad de Ciencias Exactas, Ingeniería y Agrimensura,
+//   Escuela de Agrimensura, Departamento de Geotopocartografía, 1997.
 //-----------------------------------------------------------------------------
 
 
