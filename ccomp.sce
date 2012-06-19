@@ -169,13 +169,13 @@ function [seeY, seeX, alfa, ro, MVC, sigma0, sigma, S, Q, P, A] = insert_pto_red
 
   // Lectura del archivo de entrada
   //---------------------------------------------------------------------------
-  archivo = uigetfile("", ".", "Seleccione el archivo de datos (valores en metros)")
+  archivo = uigetfile("", ".", "Seleccione el archivo de datos")
   [n,C,D,E] = leer_archivo_de_datos(archivo)
 
   // Entrada
   //---------------------------------------------------------------------------
-  [ok,S,e,ps,K] = getvalue("Ingrese los siguientes datos del problema", ["Coordenadas [X,Y] de solución ""aproximada"" (m)   S:"; "Precisión de la Red (m)   e:"; "Diferencia requerida entre soluciones sucesivas (m)   ps:"; "Varianza de la unidad de peso\tK:"], list("row", 2, "vec", 1, "vec", 1, "vec", 1), ["[0,0]"; "0.10"; "0.10"; "1"])
-  
+  [ok,S,e,ps,K] = getvalue("Ingrese los siguientes datos del problema", ["Coordenadas [X,Y] de solución ""aproximada"" (m)   S:"; "Precisión de la Red (m)   e:"; "Diferencia requerida entre soluciones sucesivas (m)   ps:"; "Varianza de la unidad de peso   K:"], list("row", 2, "vec", 1, "vec", 1, "vec", 1), ["[0,0]"; "0.10"; "0.10"; "1"])
+
   // Cálculos
   //---------------------------------------------------------------------------
   // Relación funcional de las incógnitas aproximada por el polinomio de Taylor
@@ -242,12 +242,12 @@ function [seeY, seeX, alfa, ro, MVC, sigma, rK, S, Q, P, A] = insert_pto_red2D_s
 
   // Lectura del archivo de entrada
   //---------------------------------------------------------------------------
-  archivo = uigetfile("", ".", "Seleccione el archivo de datos (valores en metros)")
+  archivo = uigetfile("", ".", "Seleccione el archivo de datos")
   [n,C,D,E] = leer_archivo_de_datos(archivo)
 
   // Entrada
   //---------------------------------------------------------------------------
-  [ok,S,e,K] = getvalue("Ingrese los siguientes datos del problema", ["Coordenadas [X,Y] de solución ""aproximada"" (m)   S:"; "Precisión de la Red (m)   e:"; "Varianza de la unidad de peso     K:"], list("row", 2, "vec", 1, "vec", 1), ["[0,0]"; "0.10"; "1"])
+  [ok,S,e,K] = getvalue("Ingrese los siguientes datos del problema", ["Coordenadas [X,Y] de solución ""aproximada"" (m)   S:"; "Precisión de la Red (m)   e:"; "Varianza de la unidad de peso   K:"], list("row", 2, "vec", 1, "vec", 1), ["[0,0]"; "0.10"; "1"])
 
   // Cálculos
   //---------------------------------------------------------------------------
