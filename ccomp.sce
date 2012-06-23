@@ -7,11 +7,12 @@
 //
 // se encuentra bajo una
 //
-//   Licencia Creative Commons Atribución-CompartirDerivadasIgual 2.5 Argentina
-//   (ver más información en http://creativecommons.org/licenses/by-sa/2.5/ar/)
+//   Licencia Creative Commons
+//   Atribución-NoComercial-CompartirDerivadasIgual 2.5 Argentina
+//   (más información en http://creativecommons.org/licenses/by-nc-sa/2.5/ar/)
 //
 //   Usted es libre de compartir, copiar, distribuir, ejecutar y comunicar
-//   públicamente la obra, hacer obras derivadas, hacer un uso comercial.
+//   públicamente la obra, hacer obras derivada.
 //
 // Cálculos basados en la publicación de Aldo Mangiaterra: Cálculo de
 //   compensaciones - Edición 2006, Revisión 2010.
