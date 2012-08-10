@@ -24,5 +24,4 @@ Luego se pueden ejecutar sus funciones normalmente como cualquier otra función 
 
 ## Licencia
 
-**ccomp** se encuentra bajo una Licencia [Creative Commons](http://creativecommons.org/licenses/by-sa/2.5/ar/). Usted es libre de compartir, copiar, distribuir, ejecutar y comunicar públicamente la obra, hacer obras derivadas, hacer un uso comercial.
-
+**ccomp** se encuentra bajo una Licencia [Creative Commons](http://creativecommons.org/licenses/by-nc-sa/2.5/ar/). Usted es libre de compartir, copiar, distribuir, ejecutar y comunicar públicamente la obra y hacer obras derivadas.
