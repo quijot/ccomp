@@ -34,5 +34,5 @@ donde las matrices de entrada _A_, _U_ y _P_ son las matrices de coeficientes, d
 
 **ccomp** se encuentra bajo una Licencia [Creative Commons][cc]. Usted es libre de compartir, copiar, distribuir, ejecutar y comunicar públicamente la obra, hacer obras derivadas.
 
-[cc]: http://creativecommons.org/licenses/by-sa/2.5/ar/  "Licencia Creative Commons 2.5"
+[cc]: http://creativecommons.org/licenses/by-nc-sa/2.5/ar/  "Licencia Creative Commons 2.5"
 
